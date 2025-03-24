@@ -9,10 +9,6 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from tqdm import tqdm
 import os
 
-# Set random seeds for reproducibility
-torch.manual_seed(39)
-np.random.seed(39)
-
 class BugReportDataset(Dataset):
     # Custom Dataset class for bug report data
     def __init__(self, texts, labels, tokenizer, max_length=512):
