@@ -1,0 +1,5 @@
+Metric,NB Mean,BERT Mean,Improvement (%),Significant Difference
+Accuracy,0.5748,0.9074,57.88%,Yes (p < 0.05)
+Precision,0.6082,0.8788,44.50%,Yes (p < 0.05)
+Recall,0.7066,0.7499,6.13%,No (p >= 0.05)
+F1,0.5240,0.7812,49.09%,Yes (p < 0.05)
