@@ -1,6 +1,6 @@
 # Bug Report Classification
 
-This repository contains a comprehensive implementation of bug report classification using both traditional machine learning (Naive Bayes) and deep learning (BERT) approaches. The project includes statistical analysis to compare the performance of these methods across different open-source projects.
+This repository contains an implementation of bug report classification using both Naive Bayes and BERT. The project includes statistical analysis to compare the performance of these methods across different open-source projects.
 
 ## Project Overview
 
@@ -39,7 +39,7 @@ This script performs statistical analysis to compare the performance of both app
 
 ## Results
 
-The following visualizations show the comparison of performance metrics between Naive Bayes and BERT approaches:
+The following visualizations show the comparison of performance metrics between Naive Bayes and BERT:
 
 ### Accuracy Comparison
 ![Accuracy Comparison](Images/Accuracy_comparison.png)
@@ -80,18 +80,6 @@ python statistical_tests.py
 - transformers
 - nltk
 - scipy
-
-## Project Structure
-
-```
-.
-├── br_classification.py      # Traditional ML implementation
-├── BERT_br_classifier.py     # BERT-based implementation
-├── statistical_tests.py      # Statistical analysis
-├── datasets/                 # Dataset directory
-├── Images/                   # Results and architecture diagrams
-└── *.csv                     # Results files for different projects
-```
 
 ## Results Files
 
